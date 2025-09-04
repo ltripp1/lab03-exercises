@@ -1,6 +1,13 @@
 def find_duplicates_nested_loop(l: list) -> list:
-    # Replace "return None" with your code
-    return None
+    corrin = []
+    for i in range(len(l)):
+        for j in range(i+1, len(l)):
+            if (not(l[i] in corrin)):
+               if (l[i] == l[j]):
+                   corrin.append(l[i])
+
+
+    return corrin
 
 # In Python, if __name__ == "__main__" is a conditional check that determines whether 
 # a Python file is being run as the main program or imported as a module into another 

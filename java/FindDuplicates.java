@@ -20,6 +20,10 @@ public class FindDuplicates {
         return corrin;
     }
 
+    public static List<Integer> findDuplicates(List<Integer> l) {
+        return null;
+    }
+
     public static void main(String[] args) {
         // some test strings:
         List<Integer> sample1 = new ArrayList<Integer>(Arrays.asList(3, 7, 5, 6, 7, 4, 8, 5, 7, 66));
